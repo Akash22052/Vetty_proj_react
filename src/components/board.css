@@ -1,0 +1,60 @@
+.board {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .list {
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    margin: 10px;
+    width: 250px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .list h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .delete-list-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-list-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .cards {
+    margin-top: 10px;
+  }
+  
+  .add-card-button {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .add-card-button:hover {
+    background-color: #2980b9;
+  }
+  
